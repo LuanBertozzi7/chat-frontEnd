@@ -1,4 +1,4 @@
-export const API_URL = "http://192.168.1.13:3000";
+export const API_URL = "http://191.252.202.227";
 
 export async function apiFetch(path, { method = "GET", token, body } = {}) {
   const headers = { "Content-Type": "application/json" };
